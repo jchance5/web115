@@ -1,14 +1,9 @@
 @charset "utf-8";
 
 html {
-	background-color: teal;
-	color: aliceblue;
+	background-color: lightsteelblue;
 	text-align: center;
-	font-family: 'Martel', serif;
+	font-family: Arial, sans-serif;
 	list-style-position: inside;
 }
 
-h1, h2, h3, h4 {
-	color: lightgreen;
-	font-family: 'Prata', serif;
-}
