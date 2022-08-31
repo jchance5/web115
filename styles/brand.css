@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+html {
+	background-color: teal;
+	color: aliceblue;
+	text-align: center;
+	font-family: 'Martel', serif;
+	list-style-position: inside;
+}
+
+h1, h2, h3, h4 {
+	color: lightgreen;
+	font-family: 'Prata', serif;
+}
