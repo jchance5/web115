@@ -7,3 +7,6 @@ html {
 	list-style-position: inside;
 }
 
+p#tagline {
+	font-style: italic;
+}
