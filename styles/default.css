@@ -6,3 +6,7 @@ html {
 	font-family: Arial, sans-serif;
 	list-style-position: inside;
 }
+
+ul {
+	list-style-position: inside;
+}
