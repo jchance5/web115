@@ -10,3 +10,7 @@ html {
 ul {
 	list-style-position: inside;
 }
+
+body {
+	margin-left: auto;
+	margin-right: auto;
