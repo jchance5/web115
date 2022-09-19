@@ -6,6 +6,10 @@ html {
 	list-style-position: inside;
 }
 
+h1, h2 {
+	text-align: center;
+}
+
 body {
 	margin-left: 25%;
 	margin-right: 25%;
