@@ -9,17 +9,15 @@ html {
 
 ul {
 	list-style-position: inside;
-	text-align: left;
+	
 }
 
 p {
 	padding-left: 1em;
 	padding-right: 1em;
-	text-align: left;
+	font-size: 1em;
 }
 
 footer {
+	
 	text-align: center;
-
-
-
