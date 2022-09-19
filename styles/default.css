@@ -12,14 +12,14 @@ html {
 	width: 50%;
 }
 
-figure {
+main {
 	width: 50%;
 	height: auto;
 	text-align: center;
 	margin: auto;
 }
 
-figcaption {
+p id {
 	font-style: italic;
 	text-align: center;
 }
