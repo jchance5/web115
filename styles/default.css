@@ -33,7 +33,7 @@ p#tagline {
 	font-style: italic;
 }
 
-a.validate {
+footer a {
 	text-decoration: none;
 	text-align: center;
 }
