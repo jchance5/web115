@@ -1,25 +1,44 @@
+@charset "utf-8";
+
 html {
 	background-color: lightsteelblue;
-	text-align: center;
 	font-family: Arial, sans-serif;
 	list-style-position: inside;
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+body {
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
-main {
-	width: 50%;
-	height: auto;
-	text-align: left;
-	margin: auto;
+footer p {
+	font-size: 100%;
+	text-align: center;
 }
 
-p id {
+footer nav {
+	font-size: 100%;
+	text-align: center;
+}
+
+p {
+	font-size: 110%;
+}
+
+p#tagline {
 	font-style: italic;
+}
+
+a.validate {
+	text-decoration: none;
+}
+
+ul {
+	list-style-position: inside;
 	text-align: left;
+}
+
+p#introCaption {
+	font-style: italic;
+	text-align: center;
 }
