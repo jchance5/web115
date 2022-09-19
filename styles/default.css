@@ -8,8 +8,7 @@ html {
 }
 
 ul {
-	list-style-position: inside;
-	
+	list-style-position: inside;	
 }
 
 p {
@@ -19,5 +18,8 @@ p {
 }
 
 footer {
-	
+	padding-top: .2em;
+   	padding-bottom: .2em;
+	margin-bottom: 0;
 	text-align: center;
+}
