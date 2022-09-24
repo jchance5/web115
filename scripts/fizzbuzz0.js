@@ -1,17 +1,14 @@
 "use strict";
 
-function greetChange() {
-	let firstName = document.getElementById('fName').value;
-	let midInitial = document.getElementById('mName').value;
-	let lastName = document.getElementById('lName').value;
-	let newGreet = `Welcome, ${firstName} ${midInitial} ${lastName}!`
-	document.getElementById('greeting').innerHTML = newGreet;
-	
-	let countMax = prompt(`How high do you want to count, ${firstName}?`)
-	let result = '';
-	for (var i = 1; i <= countMax; i++) {
-		i % 2 === 0 ? result += "Another Chance - the number is even<br>" : result += "Another Chance - the number is odd<br>";
-	}
-	
-	document.getElementById('output').innerHTML = result;
-}
+function username()
+  let fname = document.getElementById("first_name");
+  let mname = document.getElementById("last_name");
+  var lname = document.getElementById("middle_initail");
+  var welcome = (`Hello${fname}${mname}${lname}`)
+  document.getElementById("greeting").innerHtml = welcome;
+
+var question = prompt("How high would you like to count?");
+for (var i = 1; i < 125; i++);
+  var counting = "";
+  if (i % 3 == 0) {`${counting}New book`}
+  if (i % 5 == 0) {`${counting}New  reading`}
