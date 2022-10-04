@@ -22,27 +22,12 @@ body {
   	width: 50%;
 }
 
-footer p {
-	font-size: 100%;
-	text-align: center;
-}
-
-footer nav {
-	font-size: 100%;
-	text-align: center;
-}
-
 p {
 	font-size: 110%;
 }
 
 p#tagline {
 	font-style: italic;
-}
-
-footer a {
-	text-decoration: none;
-	text-align: center;
 }
 
 ul {
