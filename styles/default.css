@@ -30,6 +30,8 @@ p#tagline {
 	font-style: italic;
 }
 
+footer {
+	text-align: center;
 ul {
 	list-style-position: inside;
 	text-align: left;
