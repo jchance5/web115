@@ -32,18 +32,4 @@ p#tagline {
 
 footer {
 	text-align: center;
-ul {
-	list-style-position: inside;
-	text-align: left;
-}
-
-figcaption {
-	font-style: italic;
-	text-align: center;
-}
-
-figure img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
