@@ -26,8 +26,9 @@ p {
 	font-size: 110%;
 }
 
-p#tagline {
+figcaption {
 	font-style: italic;
+	text-align: center;
 }
 
 footer {
