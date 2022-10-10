@@ -7,11 +7,9 @@ window.onload = function() {
     var middle_name=document.getElementById("mName").value;
     var last_name=document.getElementById("lName").value;
     var welcome=document.getElementById("greeting").textContent;
-    document.getElementById("greeting").innerHTML = welcome +" "+ first_name +" "+ middle_name + ". " + last_name;
-    
-    let result = '';	
-	
-	  for (var i = 1; i <= 140; i++) {
+    document.getElementById("greeting").innerHTML = welcome +" "+ first_name +" "+ middle_name + ". " + last_name;   
+    let result = '';		
+	for (var i = 1; i <= 140; i++) {
 		        result += i.toString();
 		        if (i % 3 != 0 && i % 5 != 0) {
 			              result += " one";
