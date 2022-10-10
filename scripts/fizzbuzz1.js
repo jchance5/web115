@@ -1,8 +1,6 @@
 "use strict";
 
 window.onload = function() {
-  
-  document.forms[0].onsubmit = function() {
     var first_name = document.getElementById("fName").value;
     var middle_name = document.getElementById("mName").value;
     var last_name = document.getElementById("lName").value;
