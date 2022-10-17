@@ -24,6 +24,6 @@ function fizzbuzz() {
 	     		 }
 	     		 result += "<br>";
     		}
-}  
+ 
     document.getElementById('output').innerHTML = result;
 }
