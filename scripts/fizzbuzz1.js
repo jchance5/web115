@@ -1,6 +1,6 @@
 "use strict";
 
-function greetChange() {
+window.onload = function() {
 	const first = document.getElementById('firstName').value;
 	const mid = document.getElementById('middleInitial').value;
 	const last = document.getElementById('lastName').value;
