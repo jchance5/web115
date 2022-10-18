@@ -1,17 +1,43 @@
 @charset "utf-8";
 
 html {
-	background-color: lightsteelblue;
-	text-align: center;
-	font-family: Merriweather;
+	background-color: #00BFFF;
+	color: #0000FF;
+	font-family: Arial, sans-serif;
 	list-style-position: inside;
 }
 
-main {
-  color: rgb(0, 0, 0);
-  font-size: 25px;
+h1, h2 {
+	text-align: center;
 }
 
-p#tagline {
+body {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.center {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+p {
+	font-size: 110%;
+}
+
+figcaption {
 	font-style: italic;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+figure img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
