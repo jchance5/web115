@@ -1,8 +1,6 @@
 "use strict";
 
-
-
-function fizzBuzz() {
+function greetChange() {
 	const first = document.getElementById('firstName').value;
 	const mid = document.getElementById('middleInitial').value;
 	const last = document.getElementById('lastName').value;
