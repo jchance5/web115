@@ -10,15 +10,15 @@ function fizzBuzz() {
 	let outputText = "";
 	for (var i = 1; i <= 140; i++) {
         if (i % 3 != 0 && i % 5 != 0) {
-            outputText += i + " one";
+            outputText += i + " One";
         }
         else {
             outputText += i.toString();
             if (i % 3 == 0) {
-                outputText += " more";
+                outputText += " More";
             }
             if (i % 5 == 0) {
-                outputText += " try";
+                outputText += " Try";
             }
             outputText += "<br>";
         }
