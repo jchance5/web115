@@ -1,4 +1,3 @@
-"use strict";
 
 window.onload = function() {
   
@@ -37,3 +36,9 @@ window.onload = function() {
         return false;
         }
     }
+function changehead() {
+    var fName = document.getElementById("fName").value;
+    var mName = document.getElementById("mName").value;
+    var lName = document.getElementById("lName").value;
+    document.getElementById("display").innerHTML = "Welcome to GiveAnotherChance Fizz Buzz," +fName+" "+mName+" "+lName;
+}
