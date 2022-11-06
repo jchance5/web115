@@ -1,4 +1,3 @@
-
 function greeting() {   
     var fName = document.getElementById("fName").value;
     var mName = document.getElementById("mName").value;
