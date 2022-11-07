@@ -1,9 +1,9 @@
 "use strict";
 
 function greeting() {   
-    var fName = document.getElementById("fName").value;
-    var mName = document.getElementById("mName").value;
-    var lName = document.getElementById("lName").value;
+    var first_name=document.getElementById("fName").value;
+    var middle_name=document.getElementById("mName").value;
+    var last_name=document.getElementById("lName").value;
     alert("Hello! " + fName + " " +  mName + ". " + lName + ".");
     var firstNum = parseInt(prompt("Please enter the first number? "));
     var secondNum = parseInt(prompt("Please enter the second number? "));
