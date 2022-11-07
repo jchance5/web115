@@ -34,6 +34,8 @@ function displayWords (firstNum, secondNum) {
         return false;
         }
     }
-document.getElementById("displayR").innerHTML = expect;     
+
+    document.getElementById("displayR").innerHTML = expect;     
     return false;
-}
+};
+};
