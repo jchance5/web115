@@ -34,9 +34,6 @@ function displayWords (firstNum, secondNum) {
         return false;
         }
     }
-function changehead() {
-    var fName = document.getElementById("fName").value;
-    var mName = document.getElementById("mName").value;
-    var lName = document.getElementById("lName").value;
-    document.getElementById("display").innerHTML = "Welcome to Shebba Mineral Fizz Buzz," +fName+" "+mName+" "+lName;
+document.getElementById("displayR").innerHTML = expect;     
+    return false;
 }
