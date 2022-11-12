@@ -28,7 +28,7 @@ window.onload = function() {
 				expect +=  i +".) "+ "Try <br>";
 		}
 			else {
-				expect +=  i +".) "+ "One more<br>";
+				expect +=  i +".) "+ "One More<br>";
 		}
 	  }
 	  
