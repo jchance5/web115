@@ -1,13 +1,12 @@
 "use strict";
 
+
 function changehead() {
     var fName = document.getElementById("fName").value;
     var mName = document.getElementById("mName").value;
     var lName = document.getElementById("lName").value;
     document.getElementById("display").innerHTML = "Welcome to GiveAntherChance Est Fizz Buzz," +fName+" "+mName+" "+lName;
 
-    
-   /* let numLists = 140;*/
     
     var ptag = document.getElementById("nums");
     let valueNum = "";	
