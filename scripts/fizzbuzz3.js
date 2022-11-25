@@ -1,6 +1,6 @@
 "use strict";
 
-function changehead(){
+function changehead() {
     var fName = document.getElementById("fName").value;
     var mName = document.getElementById("mName").value;
     var lName = document.getElementById("lName").value;
@@ -77,4 +77,4 @@ function changehead(){
  
 }    
     
-}       
+}      
