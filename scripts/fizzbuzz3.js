@@ -1,7 +1,9 @@
 "use strict";
 
 
-function changehead() {
+window.onload = function() {
+    
+document.forms[0].onsubmit = function() {
     var fName = document.getElementById("fName").value;
     var mName = document.getElementById("mName").value;
     var lName = document.getElementById("lName").value;
