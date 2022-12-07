@@ -1,9 +1,7 @@
 "use strict";
 
-
-window.onload = function() {
     
-document.forms[0].onsubmit = function() {
+function greetChange() {
     var fName = document.getElementById("fName").value;
     var mName = document.getElementById("mName").value;
     var lName = document.getElementById("lName").value;
