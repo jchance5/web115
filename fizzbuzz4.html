@@ -1,47 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-	<title>Josh Chance's GiveAnotherChance Est Fizz Buzz 4</title>
-	<link rel="stylesheet" href="styles/default.css">
+	<meta charset="utf-8">
+	<title>Josh Chance's GiveAnotherChance Est FizzBuzz 4</title>
+	<link href="styles/default.css" rel="stylesheet">
 	<script src="scripts/fizzbuzz4.js"></script>
-  </head>
-  
-  <body>
-    <header>
-      <h1>Josh Chance - WEB115</h1>
-    </header>
-    
-    <main>
-     <h2 id ="greeting">Welcome to GiveAnotherChance Est</h2>
-               
-		<form id="order_form" action="www.example.com/" method="post">
-			<fieldset id="Customer">
-				<legend>Entry Information</legend>
-				<div class="tabBox">
-					<label for="fName">First Name:</label>
-					<input name="custName" id="fName" type="text" placeholder="First name" autofocus required>
-				</div>
-				<div class="tabBox">
-					<label for="mName">Middle Initial:</label>
-					<input name="custName" id="mName" type="text" placeholder="Middle initial" maxlength= "1" required>
-				</div>
-				<div class="tabBox">
-					<label for="lName">Last Name:</label>
-					<input name="custName" id="lName" type="text" placeholder="Last name" required>
-				</div>
-				<div id= "buttons">
-					<input type="submit" value="Submit">
-					<input type="reset" value="Cancel">
-				</div>
-			</fieldset>
-				
+</head>
+<body>
+	<header>
+		<h1>Josh Chance - WEB115</h1>
+		<main>
+		<h2 id="greeting">Welcome to GiveAnotherChance Est</h2>
+		<form action="javascript:void(0);" method="post" onsubmit="greetChange()" id="fizzForm">
+			<label for="fName">First Name</label>
+			<input name="fName" id="fName" type="text" placeholder="First name" required><br>
+			<label for="mName">Middle Initial</label>
+			<input name="mName" id="mName" type="text" placeholder="M" maxlength="1"><br>
+			<label for="lName">Last Name</label>
+			<input name="lName" id="lName" type="text" placeholder="Last name" required><br>
+			<input type="submit" value="Submit">
 		</form>
-		<br>
-		<p id = "displayR"></p>
-	<br>
-   </main>
-   <footer>
+		<p id="output"></p>
+	</main>
+	 <footer>
      <nav>
        <a href="https://github.com/jchance5">Github</a> |
        <a href="https://www.freecodecamp.org/fccd3b778d9-bb5b-49af-aaa7-8111c1a9889b">Freecodecamp</a> |
@@ -52,13 +33,12 @@
      </nav>
      
      <p>Page built by GiveAnotherChance Est</p>
-	   <p id="tagline">Given a second chance we'll make you work harder!</p>
+	   <p id="tagline">Given a second chance will make you work harder!</p>
      
      
-     <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjchance5.github.io%2Fweb115%2Ffizzbuzz4.html">
+     <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjchance5.github.io%2Fweb115%2Ffizzbuzz2.html">
        <img src="images/validHTML.png" alt="HTML Validation Button"></a>
-     <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjchance5.github.io%2Fweb115%2Ffizzbuzz4&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+     <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjchance5.github.io%2Fweb115%2Ffizzbuzz2&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
        <img src="images/css3validator.png" alt="CSS Validation Button"></a>
     </footer>
-  </body>
-</html>
+</body>
