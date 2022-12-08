@@ -1,79 +1,40 @@
 "use strict";
 
-    
 function greetChange() {
-    var fName = document.getElementById("fName").value;
-    var mName = document.getElementById("mName").value;
-    var lName = document.getElementById("lName").value;
-    document.getElementById("display").innerHTML = "Welcome to GiveAntherChance Est Fizz Buzz," +fName+" "+mName+" "+lName;
+	let firstName = document.getElementById('fName').value;
+	let midInitial = document.getElementById('mName').value;
+	let lastName = document.getElementById('lName').value;
+	let newGreet = `Welcome, ${firstName} ${midInitial} ${lastName}!`
+	document.getElementById('greeting').innerHTML = newGreet;
+	
+	let result = '';	
+	
+	const firstDiv = 3;
+	const secondDiv = 5;
+	const thirdDiv = 7;
+	
+	for (var i = 1; i <= 140; i++) {
+		result += i.toString();
+		if (!evenDiv(i, firstDiv) && !evenDiv(i, secondDiv) && !evenDiv(i, thirdDiv)) {
+			result += " One";
+		}
+		else {
+			if (evenDiv(i, firstDiv)) {
+				result += " More";
+			}
+			if (evenDiv(i, secondDiv)) {
+				result += " Try";
+			}
+			if (evenDiv(i, thirdDiv)) {
+				result += " One more";
+			}
+		}
+		result += "<br>";
+	}
+	
+	document.getElementById('output').innerHTML = result;
+}
 
-    
-    var ptag = document.getElementById("nums");
-    let valueNum = "";	
- for (var i = 1; i <= 140; i++) {
-    
-    var listparagraph = document.createElement('p');
-    
-      if (i % 3 === 0 && i % 5 === 0 && i % 7 === 0) {
-        
-        valueNum = i.toString() + ". " + " One";
-        listparagraph.innerText = valueNum;
-        listparagraph.style.color ="white";
-        ptag.appendChild(listparagraph);
-        }
-     else if (i % 3 === 0 && i % 5 === 0) {
-            
-            valueNum = i.toString() + ". " + " More";
-            listparagraph.innerText = valueNum;
-            listparagraph.style.color ="white";
-            ptag.appendChild(listparagraph);
-        }
-     else if (i % 3 === 0 && i % 7 === 0) {
-
-            valueNum = i.toString() + ". " + " Try";
-            listparagraph.innerText = valueNum;
-            listparagraph.style.color ="white";
-            ptag.appendChild(listparagraph);
-        }
-    else if (i % 5 === 0 && i % 7 === 0) {
-           
-            valueNum = i.toString() + ". " + " Give";
-            listparagraph.innerText = valueNum;
-            listparagraph.style.color ="white";
-            ptag.appendChild(listparagraph);
-        }
-    else if (i % 3 === 0 ) {
-            
-            valueNum = i.toString() + ". " + "  Another";
-            listparagraph.innerText = valueNum;
-            listparagraph.style.color ="white";
-            ptag.appendChild(listparagraph);
-        }
-    else if (i % 5 === 0 ) {
-            
-            valueNum = i.toString() + ". " + " Chance";
-            listparagraph.innerText = valueNum;
-            listparagraph.style.color ="white";
-            ptag.appendChild(listparagraph);
-        }
-    else if (i % 7 === 0) {
-        
-        valueNum = i.toString() + ". " + " One more";
-        listparagraph.innerText = valueNum;
-        listparagraph.style.color ="white";
-        ptag.appendChild(listparagraph);
-        
-        }
-    else {
-       
-        valueNum = i.toString() + ". " + " Give another";
-        listparagraph.innerText = valueNum;
-        
-        ptag.appendChild(listparagraph); 
-         
-    }
-
- 
-}    
-    
-}      
+function evenDiv(num1, num2) {
+	return (num1 % num2 == 0 ? true : false);
+}
